@@ -14,28 +14,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+    
     <div class="navbar-fixed">
-    <nav class="black">
-        <div class="nav-wrapper">
+    <nav class="black" id="navbar-top">
+        <div class="nav-wrapper container" id="topNavWrap">
             <a href="/" class="brand-logo">Donnie Toombs</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#aboutme">About</a></li>
                 <li><a href="#portSect">Portfolio</a></li>
-                <li><a href="#footer">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 </div>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="contact"></a></li>
+        <li><a href="#aboutme">About</a></li>
+        <li><a href="#portSect">Portfolio</a></li>
+        <li><a href="#contact"></a></li>
     </ul>
 
     <div id="index-banner" class="parallax-container">
@@ -50,7 +51,7 @@
     </div>
     <section class="aboutme">
     <div class="container" id ="aboutme">
-        <div class="section">
+        <div class="section" id="abtMe">
             <div class="row">
                 <br>
                 
@@ -65,19 +66,18 @@
                         <p id="descME">
 
                             My name is Donnie Toombs and I am from Charleston, SC. I received my bachelors degree in Finance from Northern Kentucky University.
-                            I recently obtained my MBA from Florida Atlantic University. I have experience in multiple industries
-                            including positions in all facets of the restaurant industry and posts in the Securities and
-                            Investment industries as well. <br><br>
+                            I recently obtained my MBA from Florida Atlantic University. Upon finishing my MBA and working in the Finance/Investment industries for a few years, I decided
+                            I wanted to pursue further education in another field I have a passion in. Upon deciding to pursue software/web development, I decided to attend a full stack web development bootcamp offered 
+                            by UNC Charlotte.  
+                             <br><br>
 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat
-                            libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium.
-                            Nullam commodo, est ac auctor ornare, eros nisi fringilla sem, non pulvinar tortor lorem sit
-                            amet sem.<br><br>
+                            I bring a unique skillset  that has been obtained by pursuing multiple degrees and by working and gaining experience in multiple industries. I have past experience in the hospitality/restaurant and banking/finance/investment industries where I have gained skills including management/leadership, customer service, sales, analsis, presentations, branding, marketing, data analysis, strategy development and execution just to name a few. 
+                            Recently, I have obtained more technology skills with experience in multiple programming languages and frameworks in a full stack curriculum. My past experience lends itself to being extremely flexible and able to adapt to change.
+                            <br><br>
 
-                            Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in
-                            lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean at feugiat
-                            elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla.
-                            Etiam efficitur porta purus, id posuere sem congue a. </p>
+                            While I have worked in many areas wearing multiple hats, the true passion I possess is the love of learning and improvement! I will forever thirst for knowledge and 
+                            that is what would make me a great addition to your team, company, or project. The technology field is one that is everchanging so it is fitting that someone like myself is a part of it.
+                           </p>
                     <br>
                     <br>
                 </div>
@@ -100,38 +100,36 @@
                 <div class="row">
                     <div class="col s12 m12 l12 title">
                         <span><h3 class="center-align titleText">Portfolio</h3></span>
+                        <div class="carousel">
+                            <a class="carousel-item" href="https://donnietoombs.github.io/Proj1-GameSearcher/"><h5>NFL GameSearcher App</h5><img src="./assets/images/codeplaceholder.jpg"></a>
+                            <a class="carousel-item" href="https://donnietoombs.github.io/TrainScheduler/"><h5>Train Scheduler</h5><img src="./assets/images/codingplaceholder2.jpg"></a>
+                            <a class="carousel-item" href="https://donnietoombs.github.io/GifTastic/"><h5>Gif App</h5><img src="./assets/images/fallsPlaceholder.jpg"></a>
+                          </div>
                     </div>
                 </div>
                
             </div>
         </section>
 
-  <footer class="page-footer black">
+  <footer class="page-footer black" id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Company Bio</h5>
-                    <p class="grey-text text-lighten-4"></p>
+                <div class="row white-text"><span><h3 class="center-align titleText">Connect</h3></span></div>
+                <div class="row" name="contact">
+                    <div class="col s3 m3 l3 center-align" class="connectLogos">
+                        <a href="https://www.linkedin.com/in/donnie-toombs-b139b670/" target="_blank"><img src="./assets/images/linkedin-128.png" class="social" alt="LinkedIn"></a>
+                    </div>
+    
+                    <div class="col s3 m3 l3 center-align" class="connectLogos">
+                        <a href="https://github.com/donnietoombs/" target="_blank"><img src="./assets/images/github-128.png" class="social" alt="Github"></a>
+                    </div>
+    
+                    <div class="col s3 m3 l3 center-align" class="connectLogos">
+                        <a href="https://stackoverflow.com/users/10002745/donnie-toombs" target="_blank"><img src="./assets/images/stackoverflow-128.png" class="social" alt="Stackoverflow"></a>
+                    </div>
 
-
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">Settings</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">Connect</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
+                    <div class="col s3 m3 l3 center-align" class="connectLogos">
+                            <a href="mailto:donnietoombs@gmail.com"_blank"><img src="./assets/images/emailLogo.png" class="social" alt="Stackoverflow"></a>
+                        </div>
                 </div>
             </div>
         </div>

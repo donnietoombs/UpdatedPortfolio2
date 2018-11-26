@@ -1,7 +1,7 @@
 
 $(window).scroll(function(e) {
 
-    var distanceScrolled = $(this).scrollTop();
+    
 
     $('.parallax-container').css('-webkit-filter');
 
@@ -14,8 +14,8 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 600);
+          scrollTop: target.offset().top(-1000)
+        }, 1000);
         return false;
       }
     }

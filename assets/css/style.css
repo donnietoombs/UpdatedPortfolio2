@@ -18,18 +18,49 @@
    }
    
    .aboutme {
-     background-image: url(../images/ep_naturalblack.png);
-     padding-top: 25px;
+     background-image: url(../images/grey_wash_wall.png);
+     padding-top: 0px;
    }
 
    #descME{
      color: aliceblue
    }
+   
+  #navbar-top{
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  #aboutme{
+    padding-top: 25px;
+  }
 
-   .portfolioSect{
-     background-image: url(../images/gravel.png);
-   }
+  #abtMe{
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+  
+  #index-banner{
+    padding-bottom: 10px;
+  }
 
-   #portSect{
-     padding-top: 35px;
-   }
+  #topNavWrap{
+    padding-bottom: 10px;
+  }
+  
+  .carousel{
+   height: 350px;
+  }
+
+  .carousel .carousel-item {
+  top: -70px;
+  width: 375px;
+  }
+  
+  .social{
+    height: 128px;
+  }
+    
+
+  
+
