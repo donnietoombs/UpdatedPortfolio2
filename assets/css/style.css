@@ -57,10 +57,41 @@
   width: 375px;
   }
   
+  .modal-content {
+    padding: 24px;
+    height: 100%;
+  }
+
   .social{
     height: 128px;
   }
     
+  @media only screen and (max-width: 992px){
+  nav .brand-logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 1.50rem;
+  }
+    
+  #aboutMeLabel{
+    width: 80%
+  }
 
+  #describeMeLabel {
+      width: 100%;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 110%;
+    margin: 2.2rem 0 0 0;
+}
+
+  #linkedInLogo, #githubLogo, #stackLogo, #emailLogo{ 
+   width: 50%; 
+ }
+
+}
   
 
