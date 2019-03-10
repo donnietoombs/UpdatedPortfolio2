@@ -39,6 +39,11 @@ input[type="submit"] {
   line-height: 80px;
 }
 
+#thumbnailPic {
+  height: 200px;
+  width: 100%
+}
+
 #aboutme {
   padding-top: 25px;
 }
