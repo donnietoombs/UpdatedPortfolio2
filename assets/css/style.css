@@ -27,7 +27,37 @@ input[type="submit"] {
 }
 
 #descME {
-  color: aliceblue
+  color: aliceblue;
+  font-size: 18px;
+}
+
+#descAboutMe {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 33px;
+  color: lightslategray;
+  font-weight: bolder;
+}
+
+#portfolioLabel {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;
+  color: lightslategray;
+  font-weight: BOLDER;
+}
+
+#connectLabel {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;
+  color: lightslategray;
+  font-weight: BOLDER;
+}
+
+.bottom-prlx {
+  height: 600px;
+}
+
+#workTitles {
+  text-align: center
 }
 
 .portSect {
