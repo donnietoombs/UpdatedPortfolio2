@@ -60,8 +60,10 @@ input[type="submit"] {
   text-align: center
 }
 
-.portSect {
-  background-color: #2b2d30
+
+.portfolioSect {
+  height: 500px;
+  background-color: #2b2d30;
 }
 
 #navbar-top {
