@@ -43,6 +43,7 @@ input[type="submit"] {
   font-size: 40px;
   color: lightslategray;
   font-weight: BOLDER;
+  margin-bottom: 25px;
 }
 
 #connectLabel {
@@ -60,10 +61,22 @@ input[type="submit"] {
   text-align: center
 }
 
+#portSect {
+  padding-bottom: 73px
+}
+
+#specCol {
+  margin-top: 25px;
+}
 
 .portfolioSect {
-  height: 500px;
+  height: 630px;
   background-color: #2b2d30;
+  margin-bottom: 50px;
+}
+
+#portfolioCont {
+  padding-top: 35px
 }
 
 #navbar-top {
@@ -98,8 +111,16 @@ input[type="submit"] {
 }
 
 .carousel .carousel-item {
-  top: -70px;
-  width: 375px;
+  top: -120px;
+  width: 363px;
+}
+
+.carousel {
+  height: 515px
+}
+
+.title {
+  margin-top: 25px;
 }
 
 .modal-content {
